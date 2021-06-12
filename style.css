@@ -1,0 +1,118 @@
+body{
+  background-color: #660033;
+  color: #ffffff;
+  font-family: 'Dosis', sans-serif;
+  font-size: 20px;
+  margin: 0 !important;
+}
+.container {
+  width: 100%;
+}
+.header{
+  width: 100%
+  padding: 44px 0;
+}
+.logo{
+  width: 450px;
+  font-size: 58px;
+  padding: 44px 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+img{
+  width: 80px;
+}
+.nav{
+  width: 100%;
+  padding: 10px 0;
+  background-color: #BC1B1B;
+  text-align: center;
+  border-top: 1px solid #C81111;
+  border-bottom: 1px solid #C81111;
+}
+.content{
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  padding: 10px 0;
+}
+.footer{
+  clear: both;
+  text-align: center;
+  background-color: #000000;
+  padding: 30px;
+}
+.sticky
+{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 100;
+}
+ol{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-size: 18px;
+  height: 35px;
+  line-height: 200%;
+  display: inline-block;
+}
+ol a{
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+ol>li{
+  float: left;
+  width: 150px;
+  height: 40px;
+  border-right: 1px dashed #6F0909;
+}
+ol>li:hover
+{
+  background-color: #F77A2A;
+}
+ol>li:hover>a{
+  color: lightgrey;
+}
+ol>li>ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  height: 40px;
+  display: none;
+}
+ol>li>ul>li{
+  background-color: #EA0909;
+  position: relative;
+  z-index: 100;
+  border-top: 1px dashed #6F0909;
+}
+ol>li>ul>li:hover{
+background-color: #F77A2A;
+}
+ol>li>ul>li:hover>a{
+color: lightgrey;
+}
+ol>li:hover>ul{
+  display: block;
+}
+
+.rejj{
+  height: 300px;
+}
+.rej{
+  height: 400px;
+}
+.rej a{
+  color: white;
+  text-decoration: none;
+  display: block;
+  transition: 1s;
+}
+.rej a:hover{
+  color: blue;
+}

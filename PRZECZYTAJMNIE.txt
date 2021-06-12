@@ -1,0 +1,3 @@
+W pliku main.php znajduje siê g³ówna strona, nazwa na index zosta³a zmieniona dopiero na stronie poniewa¿ by³o to wymagane.
+Nie uda³o siê nam na czas skoñczyæ panelu administratora, jednak¿e próby s¹ jeszcze w plikach. Funcja if sprawdza czy u¿ytkownik jest administratorem i przenosi na paneladmin.php zamias na panel.php
+Strona witamy.php jest nie dokoñczona i prowizorycznie wstawi³em zdjêcie korwina, niestarczy³o czasu. Treœæ na stronach (nie liczac strony g³ównej) jest z inspiracj¹ z innych stron. Pozdrawiam
